@@ -11,7 +11,11 @@
 <body>
     <script>
         var arr = ["Ahad", "Senin", "Selasa"];
-        // Menggabungkan seluruh isi array dan menjadikannya/mengubahnya ke string. Parameternya berisi pemisah antar elemen array yang digabungkan (opsional)
+        /* 
+        Menggabungkan seluruh isi array dan menjadikannya/mengubahnya ke string.
+        Parameternya berisi pemisah antar elemen array yang digabungkan (opsional).
+        Ini tidak menghapus array yang pertama, jadi ia membuat variabel baru (berisi array yang sudah digabungkan menjadi string) namun tidak menghapus array sebelumnya (yang belum digabungkan)
+        */
         var ubahKeString = arr.join(" - ");
         console.log(ubahKeString);
     </script>
