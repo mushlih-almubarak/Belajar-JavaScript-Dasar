@@ -21,3 +21,13 @@ console.log(nilai.fikih.pertama);
 console.log(nilai.fikih["kedua"]);
 
 console.log(nilai.hadis[1]);
+
+function data(namaSiswa, umurSiswa) {
+    var data1 = {
+        nama: namaSiswa,
+        umur: umurSiswa
+    }
+    console.log("Nama saya" + " " + data1.nama + " " + "Umur saya" + " " + data1.umur);
+}
+data("Mushlih Almubarak", 17);
+data("Hadziq", 10);
