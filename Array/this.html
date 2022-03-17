@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Data(nama, umur, lulus) {
+            this.nama = nama;
+            this.umur = umur;
+            this.lulus = lulus;
+            return this;
+        }
+
+        var siswa1 = new Data("Mushlih", 17, true);
+        var siswa2 = new Data("Hadziq", 10, false);
+        var siswa3 = new Data("Syakira", 15, true);
+        console.log(siswa1);
+        console.log(siswa2);
+        console.log(siswa3);
+    </script>
+</body>
+
+</html>
