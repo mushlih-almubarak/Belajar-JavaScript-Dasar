@@ -22,12 +22,26 @@ console.log(nilai.fikih["kedua"]);
 
 console.log(nilai.hadis[1]);
 
-function data(namaSiswa, umurSiswa) {
+function Data(namaSiswa, umurSiswa) {
     var data1 = {
         nama: namaSiswa,
         umur: umurSiswa
     }
     console.log("Nama saya" + " " + data1.nama + " " + "Umur saya" + " " + data1.umur);
 }
-data("Mushlih Almubarak", 17);
-data("Hadziq", 10);
+Data("Mushlih Almubarak", 17);
+Data("Hadziq", 10);
+
+function DataSiswa1(namaSiswa, umurSiswa) {
+    var data2 = {
+        nama: namaSiswa,
+        umur: umurSiswa,
+        // Membuat function/method di dalam object
+        dataDiri: function () {
+            console.log("Nama saya" + " " + data2.nama + " " + "Umur saya" + " " + data2.umur);
+        }
+    }
+    // Menjalankan functionnya
+    data2.dataDiri();
+}
+DataSiswa1("Mushlih", 17);
